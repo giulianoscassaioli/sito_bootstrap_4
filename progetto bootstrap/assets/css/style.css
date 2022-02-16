@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+.head-banner{
+	
+	
+	padding-bottom: 8rem;
+	padding-top: 8rem;
+	background-image: url("https://wallpaperaccess.com/full/2637581.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  
+
+}
+
+.carousel {
+  width:640px;
+  height:360px;
+}
+
+
+.sezione-immagini .immagine{
+	background-size: cover; 
+	min-height: 20rem;
+	background-repeat: no-repeat;
+}
+
+.sezione-immagini .testo{
+	
+	padding: 3rem;
+	
+	
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.icone{
+	padding-bottom: 7rem;
+	padding-top: 7rem;
+	
+}
+
+  @media screen and (min-width: 786px){
+	
+	.head-banner{
+	
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+	
+	}
+}
+
+.sezione-immagini .testo{
+	
+	padding: 7rem;
+	
+	
+}
